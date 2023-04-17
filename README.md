@@ -11,9 +11,15 @@ API where anyone can create Any task with title , description and also set statu
 
 
  > Create a task (Add title , description and status).
+
+</br>
+
  > You can Fetch all Task.
+
  > You can fetch single task using unique id.
+
  > You can update a task using unique id.
+
  > You can Easily delete a task using unique id.
 
 ## Routes and its methods:
