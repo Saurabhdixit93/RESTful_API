@@ -19,11 +19,17 @@ Routes and its methods:
 | HTTP Method	| Route.     |
 ------------------------------
 |               |            |
+
 | POST	        | /tasks     |
+
 | GET	        | /tasks     |
+
 | DELETE        | /tasks/:id |
+
 | PUT	        | /tasks/:id |
+
 | GET	        | /tasks/:id |
+
 ______________________________
 How to set up the project:
 
