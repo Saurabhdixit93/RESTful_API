@@ -16,13 +16,15 @@ You can Easily delete a task using unique id
 
 Routes and its methods:
 
-HTTP Method	Route
-POST	/tasks
-GET	/tasks
-DELETE	/tasks/:id
-PUT	/tasks/:id
-GET	/tasks/:id
-
+| HTTP Method	| Route.     |
+------------------------------
+|               |            |
+| POST	        | /tasks     |
+| GET	        | /tasks     |
+| DELETE        | /tasks/:id |
+| PUT	        | /tasks/:id |
+| GET	        | /tasks/:id |
+______________________________
 How to set up the project:
 
 Clone the project onto your local machine.
