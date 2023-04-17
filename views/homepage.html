@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTful API | Information Page</title>
+    <!-- css for styling -->
+    <link rel="stylesheet" href="/css_style/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="header-wrapper">
+          <h1>A RESTful API</h1>
+          <div class="button">
+            <span class="heading">For More Information Please</span>
+            <a href="https://github.com/Saurabhdixit93/RESTful_API" target="_blank">Visit</a>
+          </div>
+        </div>
+    </header>
+    <main>
+    <div class="containers" style=" margin-top: 10rem;margin-bottom: 4rem;">
+        <strong class="underline">Vist Gihub Repository to read on How to use this API.</strong>
+        <p>
+        API where anyone can create Any task with title , description and also set status .Here you can Easily create Any task.
+        </p>
+        <br>
+        <br>
+        <div class="containers">
+        <h2 class="underline">Features</h2>
+        <ul>
+            <li>Create a task (Add title , description and status)</li>
+            <li>You can Fetch all Task</li>
+            <li>You can fetch single task using unique id</li>
+            <li>You can update a task using unique id</li>
+            <li>You can Easily delete a task using unique id</li>
+        </ul>
+        </div>
+        <br>
+        <strong class="setup-instructions underline">Routes and its methods:</strong>
+        <br>
+        <br>
+        <table>
+        <tr>
+            <th>HTTP Method</th>
+            <th>Route</th>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/tasks</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/tasks</td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>/tasks/:id</td>
+        </tr>
+        <tr>
+            <td>PUT</td>
+            <td>/tasks/:id</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/tasks/:id</td>
+        </tr>
+        </table>
+        <br>
+        <div class="setup-containers">
+        <p class="setup-instructions underline">How to set up the project:</p>
+        <ol class="setup-list">
+            <li>Clone the project onto your local machine.</li>
+            <li>Run 'npm install' to install required dependencies.</li>
+            <li>Run 'npm start' in terminal to start server.</li>
+            <li>Visit your app at http://localhost:5000.</li>
+        </ol>
+        </div>
+    </div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+        <p class="footer-text">devloped By<span style="color: #007bff;"> Saurabh Dixit </span>© 2023 RESTful API.</p>
+        <div class="footer-icons">
+            <strong>Contact </strong>
+            <a style="text-decoration: none;"  href="https://github.com/Saurabhdixit93" target="_blank">
+            <img src="https://img.icons8.com/3d-fluency/30/null/github.png" alt="">
+            </a>
+            <a style="text-decoration: none;"  href="https://linkedin.com/in/Saurabhdixit93" target="_blank">
+            <img src="https://img.icons8.com/color/30/null/linkedin-2--v1.png" alt="">
+            </a>
+            <a style="text-decoration: none;"  href="mailto:smartds2550@gmail.com">
+            <img src="https://img.icons8.com/3d-fluency/30/null/gmail.png" alt="">
+            </a>
+        </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
